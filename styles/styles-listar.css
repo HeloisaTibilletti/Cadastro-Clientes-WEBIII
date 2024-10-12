@@ -1,0 +1,96 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #b97fa3;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Estilo para o container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a tabela */
+.clientes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.clientes-table th, .clientes-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.clientes-table th {
+    background-color: #b97fa3;
+    color: #fff;
+}
+
+.clientes-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.clientes-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para os links de ação */
+.clientes-table a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clientes-table a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de cadastro */
+.actions {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #b97fa3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+.excluir {
+    color: red;
+}
